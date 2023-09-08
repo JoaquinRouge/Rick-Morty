@@ -12,7 +12,7 @@ function Welcome() {
                         Also you can filter for diferent types of properties to find the character that you
                         are looking for or send us a massage for any concern o sugestion
                     </p>
-                    <h2>Lets go!</h2>
+                    <h2 className="go">Lets go!</h2>
                 </div>
                 <div className="buttons">
                     <button>Characters</button>
