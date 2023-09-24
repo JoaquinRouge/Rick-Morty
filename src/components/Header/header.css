@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    background-color:rgb(52, 77, 103);
+    height: 170px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.buttonshdr button{
+    width: 100px;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(108, 207, 174);
+    font-weight: 700;
+    
+}

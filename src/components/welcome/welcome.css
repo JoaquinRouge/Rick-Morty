@@ -1,0 +1,54 @@
+h1{
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+  h2{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .WelcomeSection{
+    background-color: rgb(255, 255, 255,.9) ;
+    text-align: center;
+    width: 600px;
+    height: 520px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 80px;
+  }
+  
+  button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    font-size: 17px;
+    background-color: rgb(52, 77, 103) ;
+    color: rgb(108, 207, 174);
+    cursor: pointer;
+  }
+  
+  button:hover{
+    background-color: rgb(108, 207, 174);
+    color: rgb(52, 77, 103);
+  }
+
+  .infowlcme{
+    color: rgb(52, 77, 103);
+  }

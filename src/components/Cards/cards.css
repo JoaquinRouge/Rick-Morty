@@ -1,0 +1,39 @@
+.CardContainer{
+    width: fit-content;
+    padding: 5px;
+    background-color: rgb(14, 30, 37);
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+}
+#h3-card{
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    color: rgb(108, 207, 174);
+    width: 300px;
+    background-color: rgb(14, 30, 37);
+    border: 0;
+}
+
+.button-card{
+ display: flex;
+ justify-content: end;
+ padding: 0px;
+}
+
+#btn-card{
+    color: rgb(52, 77, 103);
+    background-color: rgb(108, 207, 174);
+    font-size: 14px;
+    width: 140px;
+    height: 35px;
+}
+
+.d-none{
+    display: none;
+}
+
+.d-block{
+    display: block;
+}

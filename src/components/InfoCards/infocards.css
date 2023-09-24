@@ -1,0 +1,47 @@
+li{
+    padding: 20px;
+    border: .5px solid rgb(41, 41, 41);
+    list-style: none;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+li:hover{
+    background-color: rgb(108, 207, 174);
+    color: rgb(52, 77, 103) ;
+    cursor: pointer;
+}
+
+.one{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.four{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.one,.two,.three{
+    border-bottom: 0;
+}
+
+b{
+    font-size: 20px;
+}
+
+.data-class{
+    color: white;
+    font-weight: 700;
+}
+
+.InfoCards-container{
+    display: flex;
+}
+
+#InfoCards-button{
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-top: 15px;
+}

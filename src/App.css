@@ -3,6 +3,7 @@
 body{
   background-image: url(../src/assets/images/backround.jpg);
   background-size:cover;
+  background-attachment: fixed;
   color: rgb(52, 77, 103);
   font-family: 'Raleway', sans-serif;
 }
