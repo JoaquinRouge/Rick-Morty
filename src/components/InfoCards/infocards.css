@@ -12,6 +12,10 @@ li:hover{
     cursor: pointer;
 }
 
+li:hover>.data-class{
+    color: rgb(52, 77, 103) ;
+}
+
 .one{
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;

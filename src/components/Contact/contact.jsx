@@ -6,7 +6,7 @@ import { Fragment } from 'react';
 function Contact() {
     return ( 
         <Fragment>
-            <Header/>
+            <Header ubicacion ='Contact'/>
             <section className="contact">
                 <h2 className='h2ctc'>Contact</h2>
                 <h2 className='h2ctc'>Leave us your information so we can contact you</h2>

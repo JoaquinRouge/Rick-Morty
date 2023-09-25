@@ -79,7 +79,7 @@ useEffect( ()=>{
 
     return ( 
         <Fragment>
-            <Header/>
+            <Header ubicacion='Characters'/>
             <h2>Filters</h2>
             <div className="filtros">
                 {Filtros.map((filtro)=> <Filters key={filtro.name} label={filtro.filtro}
