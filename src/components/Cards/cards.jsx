@@ -1,5 +1,4 @@
 import './cards.css'
-import Header from '../Header/header';
 import InfoCards from '../InfoCards/infocards';
 import  {useState} from 'react'
 
