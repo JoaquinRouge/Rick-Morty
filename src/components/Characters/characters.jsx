@@ -86,7 +86,6 @@ useEffect( ()=>{
                  id={filtro.name} handlerChange={aplicarFiltros}/>)}    
             </div>
             <div className="cards">
-                        {/* usamos un operador ternario para que en caso que no encuentre personajes con esos filtros tire el cartel de alerta (es decir que si el array personaje nos da 0 items) */}
                         {personajes.length>0?
                     personajes.map((personaje)=>{
                                 return <Cards key={personaje.id} data={personaje}/>
